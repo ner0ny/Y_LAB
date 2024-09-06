@@ -1,0 +1,71 @@
+.authorization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10px;
+}
+.authorization__container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 380px;
+  padding: 32px;
+}
+.authorization__title {
+  text-align: center;
+  margin: 0 0 12px 0;
+}
+.authorization__form {
+  text-align: center;
+}
+.authorization__group {
+  margin: 0 0 12px 0;
+}
+.authorization__input {
+  background-color: #eee;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin: 2px;
+  width: 100%;
+  caret-color: #00a6fb;
+}
+.authorization__input:focus {
+  outline: 2px solid #00a6fb;
+}
+.authorization__input::placeholder {
+  opacity: 1;
+  transition: opacity 0.7s ease;
+}
+.authorization__input:focus::placeholder {
+  opacity: 0;
+}
+.authorization__error {
+  color: #fb0000;
+  font-size: 12px;
+  margin: 0 0 12px 0;
+}
+.authorization__button {
+  border-radius: 20px;
+  border: none;
+  background-color: #00a6fb;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.authorization__button:hover {
+  background-color: #0091e6;
+  transition: background-color 0.3s ease;
+}
+.authorization__button:active {
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in;
+}
+.authorization__button:focus {
+  outline: none;
+}
